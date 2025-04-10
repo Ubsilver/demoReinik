@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">VR Arena</div>
+    <nav class="nav">
+        <a href="in.html">Наши игры</a>
+        <a href="cards.html">Бронирование</a>
+        <a href="create.html">Подать заявку</a>
+        <div class="profile">
+            <button class="profile-btn">Профиль (<span id="username">Пользователь</span>)</button>
+            <div id="profile-dropdown" class="dropdown-content">
+                <a href="#" class="logout-btn">Выход</a>
+            </div>
+        </div>
+    </nav></header>
+
+    <div class="container">
+        <div class="welcome">
+            
+            <div class="card flex d media">
+                <img src="./img/arena1.jpg" class="card-image" alt="1" >
+                <div class="text-card">
+                    <h2>Открытая игра</h2>
+                    <p>Описание: Игра от 2 до 10 человек. Каждый игрок платит за себя самостоятельно, к вам могут присоединиться другие игроки.</p>
+                    <p>Стоимость: 900 рублей за час за одного человека</p>
+                    <a href="create.html" ><button class="mr">Записаться</button></a>
+                </div>
+            </div>
+            <div class="card flex d media">
+                <img src="./img/arena2.jpg" class="card-image" alt="2">
+                <div class="text-card">
+                    <h2>Аренда арены</h2>
+                    <p>Описание: Игра от 2 до 10 человек. Аренда игровой арены для игры своей компанией. Оплата фиксирована независимо от количества человек.</p>
+                    <p>Стоимость: 8000 рублей за час за компанию</p>
+                    <a href="create.html"><button class="mr">Записаться</button></a>
+                </div>
+            </div>
+            <div class="card flex d media">
+                <img src="./img/arena3.jpg" class="card-image" alt="3">
+                <div class="text-card">
+                    <h2>Аренда арены</h2>
+                    <p>Описание: Игра от 2 до 20 человек. В программу включено: <br>
+                        1)	Игра на арене WARPOINT 110 минут <br>
+                        2)	Отдельная лаунж зона для проведения торжества <br>
+                        3)	Дополнительные активности <br>
+                        &mdash;	Зажигательный Just Dance с гостями <br>
+                        &mdash;	Игра на приставке  <br>
+                        &mdash;	Игра "Корнхол" 
+                        </p>
+                    <p>Стоимость: 15000 рублей за 2 часа за компанию</p>
+                    <a href="create.html"><button class="mr">Записаться</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

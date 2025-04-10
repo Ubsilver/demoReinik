@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создать карточку</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">VR Arena</div>
+        <nav class="nav">
+            <a href="in.html">Наши игры</a>
+            <a href="cards.html">Бронирования</a>
+            <a href="create.html">Подать заявку</a>
+            <div class="profile">
+                <button class="profile-btn">Профиль (<span id="username">Пользователь</span>)</button>
+                <div id="profile-dropdown" class="dropdown-content">
+                    <a href="#" class="logout-btn">Выйти</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <h1>Создать заявку</h1>
+            <form id="create-form">
+                <div class="form-group">
+                    <label for="card-title">Тип услуги <br>(открытая игра, аренда арены, корпоратив)</label>
+                    <input type="text" id="card-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="card-description">Дата и время бронирования</label>
+                    <input type="text" id="card-description" required>
+                </div>
+                <div class="form-group">
+                    <label for="card-num">Количество человек</label>
+                    <input type="text" id="card-num" required>
+                </div>
+                <div class="form-group">
+                    <label for="card-pay">Тип оплаты (наличные, картой)</label>
+                    <input type="text" id="card-pay" required>
+                </div>
+                
+                <button type="submit">Создать</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

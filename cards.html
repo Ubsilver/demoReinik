@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">VR Arena</div>
+        <nav class="nav">
+            <a href="in.html">Наши игры</a>
+            <a href="cards.html">Бронирования</a>
+            <a href="create.html">Подать заявку</a>
+            <div class="profile">
+                <button class="profile-btn">Профиль (<span id="username">Пользователь</span>)</button>
+                <div id="profile-dropdown" class="dropdown-content">
+                    <a href="#" class="logout-btn">Выход</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Записи на игру</h1>
+        <div id="cards-container" class="cards-container">
+            <a href="in.html">Наши игры</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
